@@ -41,3 +41,5 @@ Invoice i1 = new Invoice();
 i1.setCustomer(c1);
 //c1.getInvoices().add(i1); -- We no longer need this
 ```
+
+As demonstrated in [this Umple example](http://cruise.eecs.uottawa.ca/umpleonline/umple.php?model=161013946507), the code required to keep such references synchronised is not trivial and can be error-prone to write/maintain manually. As such, it is a much better fit for an automated code generator.
